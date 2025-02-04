@@ -1,0 +1,26 @@
+p {
+    color: red;
+    font-family: Dalto;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic; 
+    text-align: left;   /* alinacion de texto*/
+    line-height: 1.5 ;  /* tamaño espacio entre lineas*/
+    letter-spacing: 1px; /*sepacrion de letras */
+    text-transform:none ; /*Transforma el texto mayuscula - minuscula (uppercase,lowercase)*/
+    
+
+}
+
+h1{
+    text-align: center;
+}
+
+span{
+    text-decoration: none;
+    color: brown;
+}
+
+a{
+    text-decoration: none; /* borrar susbrayado a link*/ 
+}

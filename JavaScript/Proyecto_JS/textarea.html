@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <h5>Comentario</h5>
+    <form action="">
+        <p><textarea id="comentarios" rows="20" cols="40"></textarea></p>
+        <input type="button" value="Enviar" onclick="comentar();">
+    </form>
+    
+    <script>
+        let area = document.getElementById('comentarios');
+        area.style.resize= "none"; // deshablitar que text area se pueda redimensionar
+        function comentar(){
+            if(document.getElementById('comentarios').value.length > 100){
+                swal('Comentario contiene demasiados caracteres');
+            }
+            else{
+                swal('Caracteres están dentro del rango');
+            }
+        }
+    </script>
+</body>
+</html>
