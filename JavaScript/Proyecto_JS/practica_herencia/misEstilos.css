@@ -1,0 +1,35 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+    text-shadow: 2px 2px 4px #2ab009;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+button{
+    background-color: #2ab009;
+    border:none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background-color: bisque;
+    padding: 8px;
+    border-bottom: 1px solid #72c0ce;
+    text-align: center;
+}
