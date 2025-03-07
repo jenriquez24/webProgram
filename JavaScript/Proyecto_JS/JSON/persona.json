@@ -1,0 +1,13 @@
+{
+     "nombre":"Juan Gonzales",
+     "edad": 34,
+     "estuiante":false,
+     "direccion":{
+        "calle": "Av Primera Nro 555",
+        "ciudad":"Santo Domingo"
+     },
+     "telefonos":[
+        "123-5484",
+        "987-526-42"
+     ]
+}

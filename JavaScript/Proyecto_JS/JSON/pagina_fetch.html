@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    <div id="nombre">
+
+    </div>
+
+    <script>
+        let datosJson; // variable para guardar nuestro json
+        fetch('persona.json') // esto solo cuando el archivo se encuentra en la misma carpeta(ruta)
+         .then(res=> res.json()) //llamando a una funcion then // res variable de respuesta
+         .then(salida => {// se ececuta cuando la promesa se haya resuelto
+            datosJson = salida;
+              //funcion fecth devuelve una promesa que se resuelve cuando tengamos la reespuesta del server
+        let elementoTexto = document.getElementById('nombre');
+         elementoTexto.textContent = datosJson.direccion.calle;
+
+         }) 
+      
+
+    </script>
+    
+</body>
+</html>
